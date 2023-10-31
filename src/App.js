@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Wishlist1 from "./components/wishlist-1";
+import Wishlist2 from "./components/wishlist-2";
+import { GiPartyPopper } from "react-icons/gi";
+
+const style = {
+  bg: "h-screen w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]",
+  container: "bg-slate-100 rounded-md p-4 max-w-[1500px] w-full mx-auto",
+  title: "text-3xl font-bold text-center align-middle",
+  grid: "grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4",
+  titleRow: "flex items-center justify-between",
+  slothLeft: "w-auto h-40 overflow-clip",
+  slothRight: "w-auto h-40 trasform -scale-x-100 overflow-clip",
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={style.bg}>
+      <div className={style.container}>
+        <div className={style.titleRow}>
+          <img className={style.slothLeft} src={require("./images/pngegg(1).png")} alt="" />
+          <GiPartyPopper size={100} />
+          <h3 className={style.title}>Welcome to the wishlist</h3>
+          <GiPartyPopper size={100} style={{ transform: "scaleX(-1)" }}/>
+          <img className={style.slothRight} src={require("./images/pngegg(1).png")} alt="" />
+
+        </div>
+        <div className={style.grid}>
+          <Wishlist1 />
+          <Wishlist2 />
+        </div>
+      </div>
     </div>
   );
 }
