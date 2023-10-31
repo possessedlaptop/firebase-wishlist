@@ -10,7 +10,7 @@ const style = {
   form: "flex items-center justify-between gap-2 p-2",
   input: "w-full rounded-md p-2",
   button: "bg-slate-300 p-2 rounded-md",
-  list: "list-inside",
+  list: "list-inside overflow-auto",
   itemNumber: "text-center text-xl", 
   title: "font-bold flex justify-center gap-2 p-3",
   owner: "underline font-container text-5xl text-center p-1",

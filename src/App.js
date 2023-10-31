@@ -8,9 +8,9 @@ const style = {
   container: "bg-slate-100 rounded-md p-4 max-w-[1500px] w-full mx-auto",
   title: "text-3xl font-bold text-center align-middle",
   grid: "grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4",
-  titleRow: "flex items-center justify-between",
-  slothLeft: "w-auto h-40 overflow-clip",
-  slothRight: "w-auto h-40 trasform -scale-x-100 overflow-clip",
+  titleRow: "flex items-center justify-between overflow-hidden",
+  slothLeft: "w-auto min-w-[100px] max-w-[200px] h-30 overflow-clip",
+  slothRight: "w-auto min-w-[100px] max-w-[200px] h-30 trasform -scale-x-100 object-cover",
 }
 
 function App() {

@@ -8,17 +8,17 @@ import { updateDoc, getDocs, deleteDoc, collection, addDoc, onSnapshot, query, w
 
 
 const style = {
-    form: "flex items-center justify-between gap-2 p-2",
-    input: "w-full rounded-md p-2",
-    button: "bg-slate-300 p-2 rounded-md",
-    list: "list-inside",
-    itemNumber: "text-center text-xl", 
-    title: "font-bold flex justify-center gap-2 p-3",
-    owner: "underline font-container text-5xl text-center p-1",
-    slothcredits: "text-xl p-1 text-blue-400",
-    slothcoin: "w-10 h-10 mt-1 align-middle",
-    container: "border-2 border-slate-300 rounded-md p-4 max-w-[1500px] w-full mx-auto",
-    buttonHint: "align-top inline-block opacity-30 hover:opacity-100",
+  form: "flex items-center justify-between gap-2 p-2",
+  input: "w-full rounded-md p-2",
+  button: "bg-slate-300 p-2 rounded-md",
+  list: "list-inside overflow-auto",
+  itemNumber: "text-center text-xl", 
+  title: "font-bold flex justify-center gap-2 p-3",
+  owner: "underline font-container text-5xl text-center p-1",
+  slothcredits: "text-xl p-1 text-blue-400",
+  slothcoin: "w-10 h-10 mt-1 align-middle",
+  container: "border-2 border-slate-300 rounded-md p-4 max-w-[1500px] w-full mx-auto",
+  buttonHint: "align-top inline-block opacity-30 hover:opacity-100",
 }
 
 
