@@ -41,7 +41,7 @@ function GiftItem( { gift, deleteGift, toggleCompleted, updateGift  }) {
     
             <Tooltip title="Delete gift" arrow>
               <button className={style.button} onClick={handleDelete}>
-                <AiFillDelete size={10} />
+                <AiFillDelete size={17} />
               </button>
             </Tooltip>
           </div>
