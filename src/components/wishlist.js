@@ -5,7 +5,7 @@ import { AiOutlineQuestionCircle } from "react-icons/ai";
 import Tooltip from '@mui/material/Tooltip';
 import { db } from "./firebase";
 import { updateDoc, getDocs, deleteDoc, collection, addDoc, onSnapshot, query, where, Timestamp } from "firebase/firestore";
-
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const style = {
   form: "flex items-center justify-between gap-2 p-2",
@@ -134,9 +134,17 @@ function Wishlist( props ) {
             </form>
             <ul className={style.list}>
                 {/*here we will populate with the items in the firestore*/}
-                {gifts.map((gift, index) => (
-                    <GiftItem key={index} gift={gift} deleteGift={deleteGift} toggleCompleted={toggleCompleted} />
-                ))}
+                <TransitionGroup component={null}>
+                  {gifts.map((gift, index) => (
+                    <CSSTransition key={index} classNames="fade" timeout={300}>
+                      <GiftItem
+                        gift={gift}
+                        deleteGift={deleteGift}
+                        toggleCompleted={toggleCompleted}
+                      />
+                    </CSSTransition>
+                  ))}
+                </TransitionGroup>
             </ul>
             <p className={style.itemNumber}>There are {gifts.length} items</p>
         </div>
