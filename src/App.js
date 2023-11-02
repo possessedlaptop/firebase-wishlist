@@ -2,6 +2,7 @@ import React from "react";
 import Wishlist1 from "./components/wishlist-1";
 import Wishlist2 from "./components/wishlist-2";
 import { GiPartyPopper } from "react-icons/gi";
+import Wishlist from "./components/wishlist";
 
 const style = {
   bg: "h-screen w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]",
@@ -26,8 +27,8 @@ function App() {
 
         </div>
         <div className={style.grid}>
-          <Wishlist1 />
-          <Wishlist2 />
+          < Wishlist user="Jacqui" />
+          < Wishlist user="Renzo" />
         </div>
       </div>
     </div>
