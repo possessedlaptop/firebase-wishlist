@@ -23,3 +23,7 @@
   opacity: 0;
   transition: opacity 300ms;
 }
+
+html{
+  background: linear-gradient(to right , #2F80ED, #1CB5E0); 
+}

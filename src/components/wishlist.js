@@ -118,7 +118,7 @@ function Wishlist( props ) {
         <div className={style.container}>
             <h2 className={style.owner}>{user}'s Wishlist</h2>
             <div className={style.title} >
-            <p className={style.slothcredits}>You have {5 - (gifts.length - gifts.filter((gift) => gift.completed).length)} CrediSloths</p>
+            <p className={style.slothcredits}>You have {10 - gifts.length + gifts.filter((gift) => gift.completed).length } CrediSloths</p>
                 <img src={require("../images/slothcoin.png")} className={style.slothcoin} alt="slothcoin" />
                 <Tooltip title="You use these for requesting gifts, you'll get more by completing the other's tasks" arrow>
                     <button className={style.buttonHint}><AiOutlineQuestionCircle size={25} /></button>

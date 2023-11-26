@@ -29,6 +29,11 @@ function App() {
         <div className={style.grid}>
           < Wishlist user="Jacqui" />
           < Wishlist user="Renzo" />
+          < Wishlist user="Toffee" />
+          <div>
+          Toffee se nos colo esta navidad aqui.
+          <img className={style.slothRight} src={require("./images/toffee.jpg")} alt="" />
+          </div>
         </div>
       </div>
     </div>
