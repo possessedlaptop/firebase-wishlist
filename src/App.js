@@ -12,6 +12,7 @@ const style = {
   titleRow: "flex items-center justify-between overflow-hidden",
   slothLeft: "w-auto min-w-[100px] max-w-[200px] h-30 overflow-clip",
   slothRight: "w-auto min-w-[100px] max-w-[200px] h-30 trasform -scale-x-100 object-cover",
+  toffeeEaster: "object-contain",
 }
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
           < Wishlist user="Toffee" />
           <div>
           Toffee se nos colo esta navidad aqui.
-          <img className={style.slothRight} src={require("./images/toffee.jpg")} alt="" />
+          <img className={style.toffeeEaster} src={require("./images/toffee.jpg")} alt="" />
           </div>
         </div>
       </div>
