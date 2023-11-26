@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/firebase-wishlist/static/css/main.bff5fb2c.css",
-    "main.js": "/firebase-wishlist/static/js/main.d9871531.js",
+    "main.css": "/firebase-wishlist/static/css/main.cf3c2243.css",
+    "main.js": "/firebase-wishlist/static/js/main.0998d119.js",
     "static/media/pngegg(1).png": "/firebase-wishlist/static/media/pngegg(1).a04d51a3f0f25f71074e.png",
     "static/media/slothcoin.png": "/firebase-wishlist/static/media/slothcoin.3fbd41d6f8fd43197c74.png",
     "static/media/toffee.jpg": "/firebase-wishlist/static/media/toffee.498c5d602cf4e952c0d2.jpg",
     "index.html": "/firebase-wishlist/index.html",
-    "main.bff5fb2c.css.map": "/firebase-wishlist/static/css/main.bff5fb2c.css.map",
-    "main.d9871531.js.map": "/firebase-wishlist/static/js/main.d9871531.js.map"
+    "main.cf3c2243.css.map": "/firebase-wishlist/static/css/main.cf3c2243.css.map",
+    "main.0998d119.js.map": "/firebase-wishlist/static/js/main.0998d119.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff5fb2c.css",
-    "static/js/main.d9871531.js"
+    "static/css/main.cf3c2243.css",
+    "static/js/main.0998d119.js"
   ]
 }
